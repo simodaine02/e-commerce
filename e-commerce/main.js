@@ -137,7 +137,26 @@ if(contenitore){
 let ul= document.getElementById("lista")
 if(ul){
   
-arrayCart.forEach((element=>{
-  ul.innerHTML+=`<li> nome-${element.nomeCitta} prezzo:${element.prezzo}€</li>`
-}))
+ function render(){
+  ul.innerHTML=""
+  arrayCart.forEach((element=>{
+    let prova= element
+    let li= document.createElement("li");
+    let span=document.createElement("p");
+    let btn=document.createElement("button");
+    btn.innerHTML="rimuovi"
+    span.innerHTML=` nome-${element.nomeCitta} prezzo:${element.prezzo}€`
+    li.appendChild(span)
+    li.appendChild(btn)
+    ul.appendChild(li)
+    btn.addEventListener("click",function(){
+      let index= arrayCart.indexOf(prova)
+      arrayCart.splice(index,1)
+      let containerOggetti = JSON.stringify(arrayCart)
+      localStorage.setItem("cart",containerOggetti)
+      render()
+    })
+  }))
+ }
+render()
 }
