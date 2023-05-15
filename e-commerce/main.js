@@ -111,7 +111,7 @@ myArray.forEach(element => {
   </div>
 </div>`; 
 
-let prova= document.
+
 });
 
 function addToCart(element){
