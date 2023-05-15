@@ -129,6 +129,7 @@ if(contenitore){
     arrayCart.push(ogg)
     let containerOggetti = JSON.stringify(arrayCart)
     localStorage.setItem("cart",containerOggetti)
+    counter()
   })
   })
 }
@@ -160,3 +161,9 @@ if(ul){
  }
 render()
 }
+function counter(){
+  let conta=document.getElementById("counter")
+  let n= arrayCart.length
+  conta.innerHTML=n
+}
+counter()
