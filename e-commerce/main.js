@@ -146,7 +146,9 @@ if(ul){
     let span=document.createElement("p");
     let btn=document.createElement("button");
     btn.innerHTML="rimuovi"
-    span.innerHTML=` nome-${element.nomeCitta} prezzo:${element.prezzo}€`
+    span.innerHTML=` nome-${element.nomeCitta} prezzo:${element.prezzo}€
+    <div> <img src="${element.img}" width="200px"> </img>  </div>
+    `
     li.appendChild(span)
     li.appendChild(btn)
     ul.appendChild(li)
