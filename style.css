@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px red solid */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-nav {
+  display: flex;
+}
+
+.container-nav div {
+  margin: 0 20px;
+}
+
+.container-nav div:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.rotate {
+  animation: spin 10s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.card-button1 {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-viaggia {
+  width: 200px;
+  height: 40px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  
+}
+
+.btn-viaggia:hover {
+  cursor: pointer;
+  background-color: #1B9C85;
+  transition-duration: 0.3s;
+}
+
+.s1{
+  padding-top: 20px;
+  margin-top: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* background-image: linear-gradient(to bottom right, white, #E3DFFD); */
+
+}
+
+.cl1{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.card-city{
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26%;
+  margin-top: 3rem;
+}
+
+
+.container-p{
+  max-width: 20vw;
+  text-align:justify;
+  font-size: 0.9rem;
+}
+
+.container-h2{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+.container-button button{
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid white; 
+  border: 2px solid black;
+}
+
+.container-button button:hover {
+  cursor: pointer;
+  background-color: #1B9C85;
+  transition-duration: 0.3s;
+  border: 2px solid black;
+}
+
+#about-us {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#about-us h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  width: 200px;
+  margin-right: 40px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #666;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form button {
+  padding: 12px 30px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+.containerS1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.containerS1 img{
+  width: 100%;
+
+}
