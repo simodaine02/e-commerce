@@ -1,0 +1,16 @@
+<div class="card-city">
+                <div>
+                    <img src="img/milano.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Milano</h2>
+                </div>
+                <div>
+                    <p class="container-p">Milano, la vivace città italiana, famosa per la moda, il design e l'arte.
+                        <br> Ricca di storia,
+                        cultura e delizie culinarie, è un luogo di dinamismo e fascino senza tempo.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>

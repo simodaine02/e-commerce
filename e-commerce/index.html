@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="rotate">
+            <img src="img/logo.png" width="75px">
+        </div>
+        <div class="container-nav">
+            <div>
+                <p onclick="home()">Home</p>
+            </div>
+            <div>
+                <p onclick="scrollToSection2()">About</p>
+            </div>
+            <div>
+                <p onclick="scrollToSection3()">Contact</p>
+            </div>
+            <div>
+                <p onclick="cart()">Cart</p>
+            </div>
+        </div>
+    </nav>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/img1.png" width="100%"></div>
+            <div class="swiper-slide"><img src="img/img2.png" width="100%"></div>
+            <div class="swiper-slide"><img src="img/img3.png" width="100%"></div>
+            <div class="swiper-slide"><img src="img/img4.png" width="100%"></div>
+            <div class="swiper-slide"><img src="img/img5.png" width="100%"></div>
+        </div>
+    </div>
+
+    <div class="card-button1">
+        <button class="btn-viaggia" onclick="scrollToSection()">VIAGGIA CON NOI</button>
+    </div>
+
+    <section class="s1" id="targetSection">
+       <div class="containerS1" id="containerS1"></div>
+    </section>
+
+    <hr>
+
+    <section class="s2" id="targetSection2">
+        <section id="about-us">
+            <div class="container">
+              <h2>About Us</h2>
+              <p>
+                Benvenuti nell'agenzia di viaggi Italia Explorer! Siamo un'agenzia specializzata nell'organizzazione di viaggi indimenticabili in Italia. 
+                Sia che tu desideri esplorare le affascinanti città italiane, immergerti nella cultura e storia millenaria o goderti le meraviglie naturali del nostro paese, siamo qui per realizzare i tuoi sogni di viaggio.
+              </p>
+              <p>
+                La nostra squadra è composta da esperti appassionati di viaggi con una profonda conoscenza del territorio italiano. Siamo pronti ad offrirti consigli personalizzati, creare itinerari su misura e rendere ogni dettaglio del tuo viaggio un'esperienza unica.
+              </p>
+              <p>
+                Affidati a noi per scoprire la bellezza senza tempo dell'Italia e lasciati guidare in un'avventura che ti lascerà ricordi indelebili. Siamo qui per rendere il tuo viaggio un'esperienza straordinaria e indimenticabile.
+              </p>
+            </div>
+          </section>
+          
+    </section>
+
+<hr>
+
+    <section class="s3" id="targetSection3">
+        <section id="contact">
+            <div class="container">
+              <h2>Contact Us</h2>
+              <p>
+                Do you have any questions or inquiries? Please feel free to get in touch with us using the contact details below or by filling out the contact form. We will be happy to assist you!
+              </p>
+              <div class="contact-details">
+                <div class="contact-info">
+                  <h3>Address</h3>
+                  <p>Via Italia 123, Rome, Italy</p>
+                </div>
+                <div class="contact-info">
+                  <h3>Phone</h3>
+                  <p>+1 123 456 789</p>
+                </div>
+                <div class="contact-info">
+                  <h3>Email</h3>
+                  <p>info@italiaexplorer.com</p>
+                </div>
+              </div>
+              <form>
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </section>
+          
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

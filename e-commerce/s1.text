@@ -1,0 +1,150 @@
+ <div class="cl1">
+            <div class="card-city">
+                <div>
+                    <img src="img/milano.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Milano</h2>
+                </div>
+                <div>
+                    <p class="container-p">Milano, la vivace città italiana, famosa per la moda, il design e l'arte.
+                        <br> Ricca di storia,
+                        cultura e delizie culinarie, è un luogo di dinamismo e fascino senza tempo.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>
+            <div class="card-city">
+                <div>
+                    <img src="img/firenze.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Firenze</h2>
+                </div>
+                <div>
+                    <p class="container-p">
+                        Firenze, incantevole città toscana, culla del Rinascimento. <br> Con il suo magnifico Duomo, il Ponte
+                        Vecchio e gli affascinanti musei, Firenze è un gioiello culturale da ammirare.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>          
+            <div class="card-city">
+                <div>
+                    <img src="img/torino.jpg" width="300px">
+                </div>
+                <div>
+                    <h2 class="container-h2">Torino</h2>
+                </div>
+                <div>
+                    <p class="container-p">Torino, elegante città piemontese, famosa per la sua architettura barocca e la
+                        regale piazza Castello. <br> Conosciuta anche per il caffè, il cioccolato e la Fiat, Torino offre un mix
+                        unico di storia, cultura e gustosi piaceri.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>
+        </div>
+        <div class="cl1">
+            <div class="card-city">
+                <div>
+                    <img src="img/milano.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Milano</h2>
+                </div>
+                <div>
+                    <p class="container-p">Milano, la vivace città italiana, famosa per la moda, il design e l'arte.
+                        <br> Ricca di storia,
+                        cultura e delizie culinarie, è un luogo di dinamismo e fascino senza tempo.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>
+            <div class="card-city">
+                <div>
+                    <img src="img/firenze.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Firenze</h2>
+                </div>
+                <div>
+                    <p class="container-p">
+                        Firenze, incantevole città toscana, culla del Rinascimento. <br> Con il suo magnifico Duomo, il Ponte
+                        Vecchio e gli affascinanti musei, Firenze è un gioiello culturale da ammirare.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>          
+            <div class="card-city">
+                <div>
+                    <img src="img/torino.jpg" width="300px">
+                </div>
+                <div>
+                    <h2 class="container-h2">Torino</h2>
+                </div>
+                <div>
+                    <p class="container-p">Torino, elegante città piemontese, famosa per la sua architettura barocca e la
+                        regale piazza Castello. <br> Conosciuta anche per il caffè, il cioccolato e la Fiat, Torino offre un mix
+                        unico di storia, cultura e gustosi piaceri.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>
+        </div>
+        <div class="cl1">
+            <div class="card-city">
+                <div>
+                    <img src="img/milano.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Milano</h2>
+                </div>
+                <div>
+                    <p class="container-p">Milano, la vivace città italiana, famosa per la moda, il design e l'arte.
+                        <br> Ricca di storia,
+                        cultura e delizie culinarie, è un luogo di dinamismo e fascino senza tempo.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>
+            <div class="card-city">
+                <div>
+                    <img src="img/firenze.jpg" width="300px">
+                </div>
+                <div class="container-h2">
+                    <h2>Firenze</h2>
+                </div>
+                <div>
+                    <p class="container-p">
+                        Firenze, incantevole città toscana, culla del Rinascimento. <br> Con il suo magnifico Duomo, il Ponte
+                        Vecchio e gli affascinanti musei, Firenze è un gioiello culturale da ammirare.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>          
+            <div class="card-city">
+                <div>
+                    <img src="img/torino.jpg" width="300px">
+                </div>
+                <div>
+                    <h2 class="container-h2">Torino</h2>
+                </div>
+                <div>
+                    <p class="container-p">Torino, elegante città piemontese, famosa per la sua architettura barocca e la
+                        regale piazza Castello. <br> Conosciuta anche per il caffè, il cioccolato e la Fiat, Torino offre un mix
+                        unico di storia, cultura e gustosi piaceri.</p>
+                </div>
+                <div class="container-button">
+                    <button>Acquista</button>
+                </div>
+            </div>
+        </div>
