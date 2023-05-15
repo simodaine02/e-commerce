@@ -157,6 +157,7 @@ if(ul){
       arrayCart.splice(index,1)
       let containerOggetti = JSON.stringify(arrayCart)
       localStorage.setItem("cart",containerOggetti)
+      counter()
       render()
     })
   }))
