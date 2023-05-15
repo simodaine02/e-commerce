@@ -1,15 +1,15 @@
-var mySwiper = new Swiper('.swiper-container', {
-  // Opciones de configuración
-  loop: true,
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-});
+// var mySwiper = new Swiper('.swiper-container', {
+//   // Opciones de configuración
+//   loop: true,
+//   autoplay: {
+//     delay: 3500,
+//     disableOnInteraction: false,
+//   },
+//   pagination: {
+//     el: '.swiper-pagination',
+//     clickable: true,
+//   },
+// });
 
 function scrollToSection() {
   var section = document.getElementById("targetSection");
@@ -94,37 +94,50 @@ var arrayCart = JSON.parse(localStorage.getItem("cart"))||[];
 
 
 var contenitore = document.getElementById("containerS1")
-
-myArray.forEach(element => {
-  contenitore.innerHTML += `<div class="card-city">
-  <div>
-      <img src="${element.img}">
-  </div>
-  <div class="container-h2">
-      <h2>${element.nomeCitta}</h2>
-  </div>
-  <div>
-      <p class="container-p">${element.descrizione}</p>
-  </div>
-  <div class="container-button">
-      <button class="prova" >Acquista</button>
-  </div>
-</div>`; 
-
-
-});
-
-function addToCart(element){
-  let oggetto = {
-    img : element.img,
-    nomeCitta: element.nomeCitta,
-    prezzo: element.prezzo,
-  }
-
-  arrayCart.push(oggetto)
-
-  let containerOggetti = JSON.stringify(arrayCart)
-  localStorage.setItem("cart",containerOggetti)
+if(contenitore){
+  myArray.forEach(element => {
+    let card=document.createElement("div");
+    let img= document.createElement("img");
+    let h2=document.createElement("h2");
+    let divh2=document.createElement("div");
+    let p= document.createElement("p");
+    let cbtn=document.createElement("div");
+    let btn=document.createElement("button")
+    img.src=element.img;
+    h2.innerHTML=element.nomeCitta;
+    p.innerHTML=element.descrizione;
+    btn.innerHTML="aggiungi al carrello"
+    card.className="card-city";
+    divh2.className="container-h2";
+    p.className="container-p"
+    cbtn.className="container-button"
+  contenitore.appendChild(card)
+  card.appendChild(img)
+  card.appendChild(divh2)
+  divh2.appendChild(h2)
+  card.appendChild(p)
+  card.appendChild(cbtn)
+  cbtn.appendChild(btn)
+  btn.addEventListener("click",function(){
+    console.log("ciao")
+    let oggetto = {
+      img : element.img,
+      nomeCitta: element.nomeCitta,
+      prezzo: element.prezzo,
+    }
+    let ogg=oggetto
+    arrayCart.push(ogg)
+    let containerOggetti = JSON.stringify(arrayCart)
+    localStorage.setItem("cart",containerOggetti)
+  })
+  })
 }
 
-console.log("dio")
+
+let ul= document.getElementById("lista")
+if(ul){
+  
+arrayCart.forEach((element=>{
+  ul.innerHTML+=`<li> nome-${element.nomeCitta} prezzo:${element.prezzo}€</li>`
+}))
+}
