@@ -127,3 +127,4 @@ function addToCart(element){
   localStorage.setItem("cart",containerOggetti)
 }
 
+console.log("dio")
